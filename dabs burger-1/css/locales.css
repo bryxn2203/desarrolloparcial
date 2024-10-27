@@ -1,0 +1,221 @@
+img{
+    display: block;
+}
+body{
+    background-color: #dfdfdf;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.945);
+    box-shadow: 0px 2px 5px rgba(218, 171, 52, 0.705);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+}
+
+nav ul {
+    font-family: 'Afacad Flux';
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    gap: 70px;
+    text-transform: uppercase;
+}
+
+nav li {
+    margin: 0 10px;
+    
+}
+
+nav li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: crosshair;
+}
+
+nav li a:focus{
+    color: rgba(218, 165, 32, 0.801);
+    text-decoration: none;
+}
+
+
+.logo{
+    padding: 0 15px;
+}
+.logo img{
+    width: 80px;
+    height: auto;
+}
+
+.iconos {
+    display: flex;
+    gap: 15px;
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 18px;
+}
+.iconos a:hover {
+    color: rgba(218, 165, 32, 0.801);
+    
+}
+/*                              LOCALES                                    */
+.img{
+    display: block;
+}
+.img-fluid{
+    max-width: 100%;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(32, 43, 141);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+h2{
+    text-transform: uppercase;
+    margin-right: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #513592;
+    letter-spacing: 2px;
+}
+p{
+    font-size: 19px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  }
+.locales{   
+    display: flex; 
+    flex-direction: row;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.container{
+    max-width: 1200%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 205px;
+    padding-right: 205px;
+}
+.padded2{
+    padding-top: 0px;
+    padding-bottom: 35px;
+}
+.row{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.col{
+    flex-basis: 0;
+    flex-grow: 1;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.card{
+    background-color: var(--color-blanco);
+    border: solid 5px #9ba141cc;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+.pagina_1_2{
+    aspect-ratio: 1 / 1.2;
+    width: 100%;
+    height: auto;
+}
+/*******                                               *******/
+#galeria img{
+    filter: grayscale(1);
+    transition: .5s all ease-in-out;
+}
+#galeria img:hover{
+    filter: grayscale(0);
+    transform: scale(1.2,1.2);
+}
+#galeria .col-foto{
+    position: relative;
+}
+#galeria .col-foto:after{
+    content: " ";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    right: 20px;
+    opacity: 0.6;
+    transform: rotate(45deg);
+}
+/*              PIE DE PAGINA           */
+  /*creando el Footer - pie de pagina final de
+  la pagina*/
+  
+  .footer {
+    background-color: #2c2c2c;
+    color: #a7a7a7;
+    padding: 20px;
+  }
+  
+  .filas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .Filas2{
+    text-align: center;
+  }
+
+  h3{
+    text-align: end;
+    font-size: 20px;
+    font-family: 'Teko';
+  }
+  
+
+  .social-icons1 {
+    display: flex;
+  }
+  
+
+  /* Aquí puedes agregar tu CSS */
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 45px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #680e0e; /* Cambia esto según el color que desees para el hover */
+}

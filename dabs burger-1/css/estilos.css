@@ -1,0 +1,395 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.945);
+    box-shadow: 0px 2px 5px rgba(218, 171, 52, 0.705);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+}
+
+nav ul {
+    font-family: 'Afacad Flux';
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    gap: 70px;
+    text-transform: uppercase;
+}
+
+nav li {
+    margin: 0 10px;
+    
+}
+
+nav li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav li a:focus{
+    color: rgba(255, 179, 0, 0.801);
+    text-decoration: none;
+}
+
+nav li a:hover {
+  color: goldenrod;
+}
+
+.logo{
+    padding: 0 15px;
+}
+.logo img{
+    width: 100px;
+    height: auto;
+}
+
+.iconos {
+    display: flex;
+    gap: 15px;
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 18px;
+}
+.iconos a:hover {
+    color: rgba(218, 165, 32, 0.801);
+    
+}
+
+
+/* aquì se implementan los estilos css para la seccion uno*/
+
+.principal {
+    background-image: url('../imagen/fondo1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 800px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidouno {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background: rgba(118, 93, 27, 0.124);
+    height: 800px;
+}
+
+.contenidouno h1{
+    margin-top: 200px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: 'Afacad Flux';
+    font-size: 90px;
+    color: #c8d368;
+    letter-spacing: 5px;
+}
+
+.contenidouno h2{
+    margin-bottom: 15px;
+    font-family: 'Afacad Flux';
+    font-size: 35px;
+    color: #9eb38d;
+}
+
+.contenidouno p{
+    margin-bottom: 30px;
+    font-family: 'Dosis';
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.buttons {
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+
+}
+
+.button {
+    background-color: #bacaad8c;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40px;
+    font-size: 20px;
+    margin: 0 30px;
+    font-family: 'Afacad Flux';
+    text-transform: uppercase;
+}
+
+.button:hover {
+    transition: all 300ms ease-in;
+    background-color: rgba(218, 165, 32, 0.521);
+    box-shadow: 0px 2px 5px rgba(218, 171, 52, 0.884);
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0px;
+    font-size: 18px;
+    margin: 0 30px;
+    font-family: 'Afacad Flux';
+    border-radius: 40px;
+}
+
+
+/*estilos para el contenido dos*/
+
+.banner {
+    background-image: url('../imagen/fondo1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidodos {
+    width: 100%;
+    height: 348px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.267);
+}
+
+.contenidodos h2{
+    font-family: 'Qwitcher Grypen';
+    font-size: 80px;
+    display: flex;
+    justify-content: initial;
+    margin-left: 90px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+.figuras {
+    display: flex;
+    justify-content: end;
+    margin-right: 100px;
+}
+
+.figuras a {
+    background-color: #9eb38d;
+    padding: 13px 50px;
+    border-radius: 30px;
+}
+
+.figuras a:hover{
+    transition: all 300ms ease-in;
+    background-color: rgba(218, 165, 32, 0.521);
+    box-shadow: 0px 2px 5px rgba(218, 171, 52, 0.884);
+}
+
+.figuras a {
+    margin: 0 50px;
+    color: #faf7f7;
+    font-size: 25px;
+}
+.figuras a:hover {
+    color: #82acd4;
+}
+
+
+
+
+/*creando la seccion 03 del contenido de la pagina*/
+
+
+.cuarta-seccion {
+  background-color: rgba(159, 159, 159, 0.527);
+  padding: 50px 0;
+  border-radius: 5px;
+}
+
+.contenedorcuatro {
+  max-width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0px;
+  padding: 20px;
+}
+
+.cuarta-seccion h2 {
+  text-transform: uppercase;
+  font-family: 'Afacad Flux';
+  text-align: center;
+  font-size: 90px;
+  margin-bottom: 20px;
+  color: #c8d368;
+  text-shadow: 
+        2px 2px 0px black,
+       -2px 2px 0px black,
+        2px -2px 0px black, 
+       -2px -2px 0px black; 
+}
+
+.cuarta-seccion p {
+  font-family: 'Edu AU VIC WA NT Guides';
+  color: #596b40;
+  text-align: center;
+  font-size: 30px;
+  line-height:20px ;
+  margin-bottom: 10px;
+}
+
+.cuarta-seccion h4 {
+  font-family: 'Londrina Sketch';
+  color: #3e4c2a;
+  text-align: center;
+  font-size: 40px;
+  line-height:20px ;
+  margin-bottom: 10px;
+}
+.item {
+  width: 30%;
+  height: auto; 
+  /* Para asegurar que cada columna tenga un ancho similar */
+  border: 1px solid #ccc;
+  padding: 40px;
+  text-align: center;
+}
+
+.item ul li{
+  list-style: none;
+  font-family: 'Rancho';
+  font-size: 20px;
+}
+
+.item img {
+  max-width: 115%;
+  height: 280px;
+  width: 370px;
+  border-radius: 40px;
+}
+
+.botonlibre2 a{
+  font-family: 'Afacad Flux';
+  text-transform: uppercase;
+}
+.botonlibre2 {
+  text-align: center;
+  width: 100%;
+  margin-top: 120px;
+}
+
+.cuarta-seccion .botonlibre2 a {
+  display: inline-block;
+  padding: 10px 50px;
+  background-color: #daa52085;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease
+}
+
+.cuarta-seccion .botonlibre2 a:hover {
+  background-color: #c8d368;;
+}
+
+
+  
+  /*creando el Footer - pie de pagina final de
+  la pagina*/
+  
+  .footer {
+    background-color: #2c2c2c;
+    color: #a7a7a7;
+    padding: 20px;
+  }
+  
+  .filas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .Filas2{
+    text-align: center;
+  }
+
+  h3{
+    text-align: end;
+    font-size: 20px;
+    font-family: 'Teko';
+  }
+  
+  h4{
+    padding-bottom: 2px;
+    font-size: 40px;
+    font-family: 'Londrina Sketch';
+  }
+
+.MisDatos a{
+    font-family: 'Rancho';
+    font-size: 25px;
+    color: rgba(187, 219, 179, 0.658);
+    text-decoration: none;
+
+}
+
+p{
+  padding-bottom: 25px;
+  font-size: 35px;
+  font-family: 'Londrina Sketch';
+}
+
+  .social-icons1 {
+    display: flex;
+  }
+  
+
+
+  /* Aquí puedes agregar tu CSS */
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #e9e289;
+    font-size: 45px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #36c489; /* Cambia esto según el color que desees para el hover */
+}
+  
